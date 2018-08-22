@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2060.001 6 209.999 48">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        font-size: 20px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        font-size: 10px;
+      }
+
+      .cls-4 {
+        fill: #ff5e3a;
+        font-size: 40px;
+        font-family: BigSurprise, Big Surprise;
+      }
+    </style>
+  </defs>
+  <g id="лого" transform="translate(1593.001 -352.996)">
+    <path id="Path_756" data-name="Path 756" class="cls-1" d="M503.674,396.631l-.019-.014a19.06,19.06,0,0,1-1.387,1.806l-2.064-2.971c.313-.421.611-.853.887-1.3.158-.251.3-.512.444-.773a15.837,15.837,0,0,0,.782-1.646,15.063,15.063,0,0,0,1.153-5.694,15.3,15.3,0,0,0-3.3-9.466l1.722-3.306a18.519,18.519,0,0,1,1.785,23.363Zm-28.631,4.77a18.943,18.943,0,0,1-7.973-14.23h-.011c-.023-.376-.059-.748-.059-1.13h0a18.481,18.481,0,0,1,.368-3.626l3.267,1.881c-.023.2-.021.413-.037.616h.005c-.028.376-.073.747-.073,1.129a15.549,15.549,0,0,0,6.337,12.444Z" transform="translate(0 -1.708)"/>
+    <path id="Path_757" data-name="Path 757" class="cls-1" d="M509.353,414.409a1.695,1.695,0,1,1-1.765,1.694A1.73,1.73,0,0,1,509.353,414.409Z" transform="translate(-13.529 -16.528)"/>
+    <path id="Path_758" data-name="Path 758" class="cls-1" d="M498.765,417.937A1.7,1.7,0,1,1,497,419.631,1.731,1.731,0,0,1,498.765,417.937Z" transform="translate(-10 -17.799)"/>
+    <path id="Path_759" data-name="Path 759" class="cls-1" d="M479.353,368.526a1.7,1.7,0,1,1-1.765,1.694A1.73,1.73,0,0,1,479.353,368.526Z" transform="translate(-3.529)"/>
+    <path id="Path_760" data-name="Path 760" class="cls-1" d="M472.294,377.35a1.695,1.695,0,1,1-1.765,1.694A1.73,1.73,0,0,1,472.294,377.35Z" transform="translate(-1.176 -3.179)"/>
+    <text id="MAIBAX" class="cls-2" transform="translate(516.999 384.996)"><tspan x="0" y="0">MAIBAX</tspan></text>
+    <text id="EDUCATIONAL_SOCIAL_NETWORK" data-name="EDUCATIONAL SOCIAL NETWORK" class="cls-3" transform="translate(516.999 396.996)"><tspan x="0" y="0">EDUCATIONAL SOCIAL NETWORK</tspan></text>
+    <text id="M" class="cls-4" transform="translate(470.999 392.996)"><tspan x="0" y="0">M</tspan></text>
+  </g>
+</svg>

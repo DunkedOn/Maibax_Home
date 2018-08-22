@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2080.001 6579 266.999 71">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #515365;
+      }
+
+      .cls-1, .cls-2 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #888da8;
+      }
+
+      .cls-3 {
+        font-size: 22px;
+      }
+
+      .cls-3, .cls-4 {
+        font-family: SegoeUI-Bold, Segoe UI;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #9a9fbf;
+        font-size: 12px;
+      }
+
+      .cls-5 {
+        fill: #ff5e3a;
+        font-size: 60px;
+        font-family: BigSurprise, Big Surprise;
+      }
+    </style>
+  </defs>
+  <g id="лого" transform="translate(1613.001 6221.004)">
+    <path id="Path_756" data-name="Path 756" class="cls-1" d="M522.011,409.785l-.029-.022a29.688,29.688,0,0,1-2.08,2.823l-3.1-4.643c.47-.658.916-1.333,1.331-2.03.237-.393.451-.8.666-1.208a25.225,25.225,0,0,0,1.173-2.573,24.271,24.271,0,0,0-3.225-23.7l2.583-5.168a29.884,29.884,0,0,1,2.677,36.517Zm-42.946,7.455A29.915,29.915,0,0,1,467.106,395h-.017c-.035-.588-.089-1.169-.089-1.766h0a30.059,30.059,0,0,1,.552-5.668l4.9,2.94c-.035.317-.031.645-.056.963h.008c-.042.587-.11,1.167-.11,1.765a24.641,24.641,0,0,0,9.506,19.45Z"/>
+    <path id="Path_757" data-name="Path 757" class="cls-2" d="M510.235,414.409a2.647,2.647,0,1,1-2.647,2.647A2.647,2.647,0,0,1,510.235,414.409Z"/>
+    <path id="Path_758" data-name="Path 758" class="cls-2" d="M499.647,417.937A2.647,2.647,0,1,1,497,420.585,2.648,2.648,0,0,1,499.647,417.937Z"/>
+    <path id="Path_759" data-name="Path 759" class="cls-2" d="M480.235,368.526a2.648,2.648,0,1,1-2.647,2.648A2.647,2.647,0,0,1,480.235,368.526Z"/>
+    <path id="Path_760" data-name="Path 760" class="cls-2" d="M473.176,377.35A2.647,2.647,0,1,1,470.529,380,2.647,2.647,0,0,1,473.176,377.35Z"/>
+    <text id="MAIBAX" class="cls-3" transform="translate(541.999 397.996)"><tspan x="0" y="0">MAIBAX</tspan></text>
+    <text id="EDUCATIONAL_SOCIAL_NETWORK" data-name="EDUCATIONAL SOCIAL NETWORK" class="cls-4" transform="translate(541.999 413.996)"><tspan x="0" y="0">EDUCATIONAL SOCIAL NETWORK</tspan></text>
+    <text id="M" class="cls-5" transform="translate(473.999 407.996)"><tspan x="0" y="0">M</tspan></text>
+  </g>
+</svg>

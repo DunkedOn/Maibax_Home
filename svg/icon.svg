@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="2760.208 506.2 16.972 18.517">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #9a9fbf;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="иконка" transform="translate(2699.5 345.5)">
+    <path id="Path_826" data-name="Path 826" class="cls-1" d="M75.531,202.005v-1.778a6.709,6.709,0,0,0,0-12.479V185.96a8.391,8.391,0,0,1,0,16.045Zm-5.092-14.256a6.709,6.709,0,0,0,0,12.479v1.783a8.392,8.392,0,0,1,0-16.056Z" transform="translate(-3.784 -23.189)"/>
+    <path id="Path_827" data-name="Path 827" class="cls-1" d="M73.5,183.5h1.7v8.417H73.5Z" transform="translate(-5.147 -22.8)"/>
+    <path id="Path_828" data-name="Path 828" class="cls-1" d="M73.5,203.5h1.7v1.683H73.5Z" transform="translate(-5.147 -25.967)"/>
+  </g>
+</svg>
