@@ -374,13 +374,14 @@ height: 37;
     color: #888DA8;
     border-radius: 5px;
     position: relative; 
-    left: 8px;
+    right: 5px;
     
  }
  .reg-name-span {
     position: relative;
-     left: 8px
+     right: 25px;
  }
+ 
    .register-email {
       margin-top: 30px;
       margin-left: 25px;
@@ -391,9 +392,14 @@ height: 37;
       color: #888DA8;
       font-size: 12px;
    }
- .register_login-password_email-text {
+ .register_login-password-text {
     position: relative;
-    left: 15px;
+    right: 100px;
+    top: 5px    
+ }
+.register_login-email-text {
+    position: relative;
+    right: 110px;
     top: 5px    
  }
 .input-email_password {
@@ -402,7 +408,7 @@ height: 37;
     border: 1px solid white;
     color: #888DA8;
     position: relative; 
-    left: 15px;
+    right: 15px;
     top: 10px   
 }
 .login-span-remember {
@@ -473,7 +479,7 @@ height: 37;
 .adress_to_register_2 {color: #FF5E3A;}
 .register-title {
     position: relative;
-    left: 66px;
+    right: 60px;
     font-size: 18px;
     color: #515365;
     bottom: 5px;
@@ -497,7 +503,7 @@ height: 37;
     bottom: 12px;    
 }
 .change_link {
-    margin-left: 75px;
+    margin: 0 auto;
     margin-top: 25px;
 }
 .span-adress_to_login {color: #497DDD;}
@@ -522,34 +528,15 @@ select {
 .check-material_register label:before{content:'';position:absolute;display:block;height:300%;width:300%;top:-100%;left:-100%;z-index:-1;border-radius:50%;transition:.3s}
 .check-material_register label:after{content:'';display:block;height:100%;width:100%;background:url(https://cbwconline.com/IMG/Codepen/Check.svg) center center no-repeat;background-size:contain;transform:scale(0);transition:.2s}
 .check-material_register label:active:before{background:#bfbfbf}
-.register-icon_1,.register-icon_2 { background: #FAFBFC; float: left; }
-.register-icon_1 {
-  height: 313px;
-   width: 70px;
-   position: relative;
-   right: 30px;
-   bottom: 42px;
-   border-bottom: 1px solid #D8DBE6;
-   border-right: 1px solid #D8DBE6
-}
-.register-icon_2 {
-  height: 315px;
-   width: 70px;
-   position: relative;
-   right: 101px;
-   top: 272px;
-   border-right: 1px solid #D8DBE6
-}
+
 .register-border {
     border: 1px solid #D8DBE6;
-    border-left: none;
-    width: 403px;
+
+    width: 350px;
     height: 573px;
-    left: 15px;
+    margin: 0 auto;
     position: relative;
-    bottom: 303px;
     color: #888DA8;
-    float: right;
 }
 #register1 {
     color: #888DA8;
