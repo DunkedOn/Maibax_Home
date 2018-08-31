@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/demo.css">
 <link rel="stylesheet" type="text/css" href="css/animate-custom.css">
-<script src="jquery-3.3.1.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
 <script src="textFit.js"></script>
 </head>
 <body>
@@ -49,24 +49,24 @@
                                     <form  action="mysuperscript.php" autocomplete="on">
                                         <div class="register-border"> 
                                         <div class="form-first_name"><p class="reg-name-text"><span class="reg-name-span"><span class="name-position"> First Name</span></span><br>
-                                            <input class="reg-input-name" type="text" size="12"></div></p>
+                                            <input class="reg-input-name" type="text" size="12" required></div></p>
                                             <div class="form-last_name"><p class="reg-name-text"><span class="reg-name-span">Last Name</span><br>
-                                                <input type="text" size="12" class="reg-input-name"></div></p> <br/>
+                                                <input type="text" size="12" class="reg-input-name" required></div></p> <br/>
                                            <div class="register-email"><p> <span class="register_login-email-text">Your Email </span> <br/>
-                                            <input class="input-email_password" type="text" size="35" > </p></div>
-                                            <div class="register-password"><span class="register_login-password-text">Your Password </span> 
-                                                <input type="password" size="35" class="input-email_password "></div> <br/>
+                                            <input class="input-email_password" type="email" size="35" required> </p></div>
+                                            <div class="register-password"><span class="register_login-password-text" >Your Password </span> 
+                                                <input type="password" size="35" class="input-email_password " required></div> <br/>
                                                 <div class="form-select_reg">
-                                                    <select class="reg-select" name="select1" id="1">
-                                                         <option>Student</option>
-                                                         <option>Teacher</option>
+                                                    <select class="reg-select" name="select1" id="1" required>
+                                                         <option value="1">Student</option>
+                                                         <option value="2">Teacher</option>
                                                  </select></div>
                                                  <div class="g-recaptcha" data-sitekey="6KepjAsTFFFFFFMqccY0ZiGqc3TEd3YVxo8cHsGX"></div>
                                                  <div class="text-danger" id="recaptchaError"></div> <br/>
                                                  <div class="check-material_register">
-                                                         <input id="toggle-1" type="checkbox">
+                                                         <input id="toggle-1" type="checkbox" required>
                                                          <label for="toggle-1"></label> <span class="reg-label">I accept the Terms and Conditions of the website</span><br/>
-                                                <input type="button" value="Sign Up" class="reg-input-button" ><br/>
+                                                <button class="reg-input-button"><span>Login</span></button><br/>
                                         <p class="change_link">  
                                             Have account ?
                                             <a href="login.html"><span class="span-adress_to_login"> LOGIN</span> </a>
@@ -102,9 +102,9 @@
                     <div class="work_image-text">
                         <div class="work-images">
                         <div class="work-image_top">
-                            <img class="image_top_1" src="image/var1.jpg" alt="var1"  width="250px" height: "200px">
-                           <img class="image_top_2" src="image/var2.jpg" alt="var1"   width="250px" height: "200px">
-                           <img class="image_top_3" src="image/var3.jpg" alt="var1"  width="250px" height: "200px">
+                            <img class="image_top_1" src="image/var1.jpg" alt="var1"  width="250px" height="200px">
+                           <img class="image_top_2" src="image/var2.jpg" alt="var1"   width="250px" height="200px">
+                           <img class="image_top_3" src="image/var3.jpg" alt="var1"  width="250px" height="200px">
                            </div>
                           <div class="work-image_bottom">  
                               <img class="image_bottom" src="image/var4.jpg" alt="var1"  width="800px" height: "500px"  >
