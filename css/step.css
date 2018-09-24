@@ -205,6 +205,8 @@ margin-top: 20px;
     margin-top: 50px;
     color: #9A9FBF;
     border-radius: 2px;
+    font-size: 18px;
+font-weight: bold;
 }
 .next-button:hover {
 border: 1px solid #707070;
@@ -214,10 +216,6 @@ color: #fff;
 .next-button:active {
 filter: brightness(1.2)
     }
-.next-button-text {
-font-size: 18px;
-font-weight: bold;
-}
 .previos-button {
     background-color: white;
     border: 1px solid #9A9FBF;

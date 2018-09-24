@@ -77,17 +77,17 @@
         </div>
     </div>
     <div class="step_form-content">
+        <form  action="step_2.html">
             <div class="form-select_step">
             <span class="select-choose">Your Country</span>
-                    <select class="step-select" >
-                        
+                    <select class="step-select" required>
                          <option>United States</option>
                          <option></option>
                  </select>
             </div>
             <div class="form-select_step">
             <span class="select-choose">Your State / Province</span>           
-                    <select class="step-select">
+                    <select class="step-select" required>
                          <option>California</option>
                          <option></option>
                  </select>
@@ -105,7 +105,7 @@
                 <img class="date-icon" src="svg/date-input-icon.svg" width="25px" height="25px">
             </div>
             <div class="form-date">
-            <input class="date" type="text" placeholder="Birthday date" >
+            <input class="date" type="text" placeholder="Birthday date" required>
         </div>
             <script>flatpickr(".date", {    altInput: true,
                     altFormat: "F j, Y",
@@ -115,38 +115,38 @@
             </div>
             <div class="form-select_step">
             <span class="select-choose">Time zone</span>           
-                    <select class="step-select">
+                    <select class="step-select" required>
                          <option>Undefined</option>
                          <option></option>
                  </select>
             </div>
             <div class="form-select_step">
             <span class="select-choose">Your Gender</span>
-                    <select class="step-select">
+                    <select class="step-select" required>
                          <option>Male</option>
                          <option>Female</option>
                  </select>
             </div>
             <div class="form-select_step-languages">
             <span class="select-choose">Languages  you speak</span>
-                    <select class="step-select-languages">
+                    <select class="step-select-languages" required>
                          <option>English</option>
                          <option></option>
                  </select>
             </div>        
             <div class="form-select_step-languages">
             <span class="select-choose">Languages of lessons</span>
-                    <select class="step-select-languages" >
+                    <select class="step-select-languages" required>
                          <option>Spanish</option>
                          <option></option>
                  </select>
             </div>   
-                 </form>    
+   
     </div>
     <div class="step-next-button">
-        <button class="next-button"  onclick="location.href = 'step_2.html'" ><span class="next-button-text">NEXT</span> </button>
+        <input type="submit" class="next-button" value="NEXT" >
     </div>
-
+  </form> 
 </div>
   </div>   
   </div>
