@@ -75,7 +75,7 @@
          <span class="header_text">  Personal Information</span> 
         </div>
     </div>
-    <div class="step_form-content">
+    <div class="step_form-content" onmousedown="return false" onselectstart="return false">
             <div class="form-interests_step to-be-changed" >
                 <span class="text-interest">Languages</span>
             </div>
@@ -118,11 +118,12 @@
             <div class="form-interests_step to-be-changed">
                 <span class="text-interest">DIV and Crafts</span>
             </div>   
+            
             <div class="form-interests_step to-be-changed">
                 <span class="text-interest">Computer Programs</span>
             </div>
             <div class="form-interests_step to-be-changed">
-                <span class="text-interest ">Science</span>
+                <span class="text-interest to-be-changed">Science</span>
             </div>                                
             <script>
                     window.onload = function(){
@@ -130,12 +131,12 @@
                         document.body.onclick = function(e){
                             var el = e ? e.target:event.srcElement;
                             var cls = el.className;
-                            if(!~cls.indexOf("form-interests_step")) return;
+                            if(!~cls.indexOf("text-interest")) return;
                             if(~cls.indexOf("to-be-changed")) {
-                                el.className = "form-interests_step changed";
+                                el.className = "text-interest changed";
                                 a.innerHTML--;
                             } else {
-                                el.className = "form-interests_step to-be-changed";
+                                el.className = "text-interest to-be-changed";
                                 a.innerHTML++;
                             }		
                         }
