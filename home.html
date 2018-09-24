@@ -5,12 +5,12 @@
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/demo.css">
 <link rel="stylesheet" type="text/css" href="css/animate-custom.css">
-<script src="js/jquery-3.3.1.js"></script>
+<script src="jquery-3.3.1.js"></script>
 <script src="textFit.js"></script>
 </head>
 <body>
-<div id="page" class="body-page">
-   <header class="header">
+<header id="page" class="body-page">
+   <div class="header">
         <div class="header-content">
         <div class="header-logo">
               <a href="#"> <img class="header-logo-img" src="svg/logo.svg" alt="logo" width="300px" height="60px"></div></a> 
@@ -18,8 +18,8 @@
         <div class="header-menu">
         <div class="header-menu_text"><span class="header-text-span_inv"><a class="inv-top"> <button class="header-menu-button" onclick="location.href = '#title'"></a><b> For investors</b></span></div></button>
         <div class="header-menu_text"><span class="header-text-span_start"><a class="str-top"><button class="header-menu-button" onclick="location.href = '#title'"></a><b> Start Teaching</b></span></div></button>
-       <div class="header-menu_text"><span class="header-text-span_log"><a class="log-top"><button class="header-menu-button" onclick="location.href = 'login.html'"></a><b> Login</b></span></div></button>
-        <div class="header-menu_text"><span class="header-text-span_reg"><a class="reg-top"><button class="header-menu-button_2" onclick="location.href = 'home.html'"></a><span>Register Now!</span> </span></div></button>
+       <div class="header-menu_text"><span class="header-text-span_log"><a class="log-top"><button class="header-menu-button" onclick="location.href = '#title'"></a><b> Login</b></span></div></button>
+        <div class="header-menu_text"><span class="header-text-span_reg"><a class="reg-top"><button class="header-menu-button_2" onclick="location.href = '#title'"></a><span>Register Now!</span> </span></div></button>
     </div>
 </div>
 </header>
@@ -44,40 +44,87 @@
             </div>
             </div>
             <div class="title-form">
+                    <section>				
+                        <div id="container_demo" >  
+                            
+                            <a class="hiddenanchor" id="toregister"></a>
+
+                            <a class="hiddenanchor" id="tologin"></a>
+                            
+       
+                            
+                            
+                            
+                            <div id="wrapper">
+                              
+                                <div id="login" class="animate form" name="login">
+                                        <div class="login-icon">  <div class="box-image">
+                                          <a href="#toregister" class="to_register"><div class="box-image_2"  onclick="location.href = '#toregister'"><span class="reg-lg-text">L<br/>o<br/>g<br/>i<br/>n</span></a></div></div></div></a>
+
+                                                  <h1 class="login-title"><b class="login-title-style">Login to your Account</b> </h1>
+                                        <div class="login-border"> <form>
+                                            <div class="login-width">
+                                    <div class="email-login"> <span class="register_login-password_email-text">Your Email </span> <br/>
+                                        <input type="text" size="35" class="input-email_password" > </div>
+                                        <div class="pass-login"> <div class="pass1"> <span class="register_login-password_email-text">Your Password </span> 
+                                            <input type="password" size="35" class="input-email_password "></div></div> <br/>
+                                            <div class="check-material_login" >
+                                            <input id="toggle-2" type="checkbox" >
+                                            <label for="toggle-2"></label><br/><span class="login-span-remember" >Remember me</span><a class="login-forgot_a" href="#"><span class="login-span-forgot">Forgot my Password</span></a>
+                                        </div>                        
+                                        <button class="button-login"><span>Login</span></button>
+                                        <div class="OR-lines">
+                                        <img class="OR-line_1" src="svg/OR-lines.svg" alt="" width="115px" height="5px">
+                                        <span class="login-OR">OR</span>
+                                        <img class="OR-line_2" src="svg/OR-lines.svg" alt="" width="115px" height="5px">
+                                    </div>
+                                        <button class="button-login-facebook"><img class="margin-buttons" src="svg/facebook.svg" alt="" width="7" height="13"> <span>Login with Facebook</span> </button>
+                                        <button class="button-login-twitter"><img class="margin-buttons" src="svg/twitter.svg" alt="" width="16" height="13"> <span>Login with Twitter</span></button>
+                                        <p class="change_link">  
+                                         <div class="container-adress" ><span class="adress_to_register_1" > Don’t you have an account?<a href="#toregister" class="to_register"><span class="maibax-color"> Register Now!</span> </a><br> 
+                                                 it’s really simple and you can start enjoing all the benefits!</span></p>
+                                                </div>
+                                             </form>
+                                            </div>
+                                        </div>
+                                      </div> 
                                       <div id="register" class="animate form" name="register">
                                     <h1 class="register-title"> Sign Up to Maibax</h1>
                                     <form  action="mysuperscript.php" autocomplete="on">
+                                            <a href="#tologin" class="to_register"> <div class="register-icon">  <div class="box-image" onclick="location.href = '#tologin'"><span class="reg-lg-text">R<br/>e<br/>g<br/>i<br/>s<br/>t<br/>e<br/>r</span></a></div></div>
                                         <div class="register-border"> 
-                                        <div class="form-first_name"><p class="reg-name-text"><span class="reg-name-span"><span class="name-position"> First Name</span></span><br>
-                                            <input class="reg-input-name" type="text" size="12" required></div></p>
+                                        <div class="form-first_name"><p class="reg-name-text"><span class="reg-name-span"> First Name</span><br>
+                                            <input class="reg-input-name" type="text" size="12"></div></p>
                                             <div class="form-last_name"><p class="reg-name-text"><span class="reg-name-span">Last Name</span><br>
-                                                <input type="text" size="12" class="reg-input-name" required></div></p> <br/>
-                                           <div class="register-email"><p> <span class="register_login-email-text">Your Email </span> <br/>
-                                            <input class="input-email_password" type="email" size="35" required> </p></div>
-                                            <div class="register-password"><span class="register_login-password-text" >Your Password </span> 
-                                                <input type="password" size="35" class="input-email_password " required></div> <br/>
+                                                <input type="text" size="12" class="reg-input-name"></div></p> <br/>
+                                           <div class="register-email"><p> <span class="register_login-password_email-text">Your Email </span> <br/>
+                                            <input class="input-email_password" type="text" size="35" > </p></div>
+                                            <div class="register-password"><span class="register_login-password_email-text">Your Password </span> 
+                                                <input type="password" size="35" class="input-email_password "></div> <br/>
                                                 <div class="form-select_reg">
-                                                    <select class="reg-select" name="select1" id="1" required>
-                                                         <option value="1">Student</option>
-                                                         <option value="2">Teacher</option>
+                                                    <select class="reg-select" name="select1" id="1">
+                                                         <option>Student</option>
+                                                         <option>Teacher</option>
                                                  </select></div>
                                                  <div class="g-recaptcha" data-sitekey="6KepjAsTFFFFFFMqccY0ZiGqc3TEd3YVxo8cHsGX"></div>
                                                  <div class="text-danger" id="recaptchaError"></div> <br/>
                                                  <div class="check-material_register">
-                                                         <input id="toggle-1" type="checkbox" required>
+                                                         <input id="toggle-1" type="checkbox">
                                                          <label for="toggle-1"></label> <span class="reg-label">I accept the Terms and Conditions of the website</span><br/>
-                                                <button class="reg-input-button"><span>Login</span></button><br/>
+                                                <input type="button" value="Sign Up" class="reg-input-button" ><br/>
                                         <p class="change_link">  
                                             Have account ?
-                                            <a href="login.html"><span class="span-adress_to_login"> LOGIN</span> </a>
+                                            <a href="#tologin" class="to_register"><span class="span-adress_to_login"> LOGIN</span> </a>
                                         </p>
                                     </div> 
                                     </form>
                                 </div>						
                             </div>
                         </div>
-                
-
+                    </section>
+                </div>
+            </div>
+        </div>
         </div>
         <div class="clr"></div>
         <div id="education" class="b-page-educational grid">
@@ -87,7 +134,7 @@
                     <span class="education-title"><b>Educational Social Network</b></span> <br/>
                     <div class="education-text_image ">
                         <div class="text-image-content">
-                    <span class="education-text" ><img class="education-image_1" src="image/img3.gif" alt="COMMINICATIONS" ><br/><br/><b class="education-communications"> COMMINICATIONS</b><br/><span class="education-text-face">face to face</span> </span> 
+                    <span class="education-text" ><img class="education-image_1" src="image/img3.gif" alt="COMMUNICATIONS" ><br/><br/><b class="education-communications"> COMMUNICATIONS</b><br/><span class="education-text-face">face to face</span> </span> 
                     <span class="education-text" ><img class="education-image_2"  src="image/img2.gif" alt="EMOTIONS"><br/><br/><b class="education-emotions">EMOTIONS</b><br/><span class="education-text-feedback" > and instant feedback</span> </span> 
                     <span class="education-text" ><img class="education-image_3" src="image/img4.gif" alt="TEAMWORK" ><br/><br/><b class="education-teamwork">TEAMWORK</b><br/><span class="education-text-individuality" >and individuality</span> </span>
                     <span class="education-text"> <img class="education-image_4" src="image/img5.gif" alt="UPGRADE"><br/><br/><b class="education-upgrade" > UPGRADE</b><br/><span class="education-text-money" >skills and earn money</span> </span>
@@ -102,9 +149,9 @@
                     <div class="work_image-text">
                         <div class="work-images">
                         <div class="work-image_top">
-                            <img class="image_top_1" src="image/var1.jpg" alt="var1"  width="250px" height="200px">
-                           <img class="image_top_2" src="image/var2.jpg" alt="var1"   width="250px" height="200px">
-                           <img class="image_top_3" src="image/var3.jpg" alt="var1"  width="250px" height="200px">
+                            <img class="image_top_1" src="image/var1.jpg" alt="var1"  width="250px" height: "200px">
+                           <img class="image_top_2" src="image/var2.jpg" alt="var1"   width="250px" height: "200px">
+                           <img class="image_top_3" src="image/var3.jpg" alt="var1"  width="250px" height: "200px">
                            </div>
                           <div class="work-image_bottom">  
                               <img class="image_bottom" src="image/var4.jpg" alt="var1"  width="800px" height: "500px"  >
@@ -365,7 +412,7 @@
                 <div class="table-footer_main">
                     <p>
                     <span>    <b> Main Links</b></span> <br/>
-                <a href="login.html">    <span>     Log In</span> <br/> <br/></a>             
+                <a href="#">    <span>     Log In</span> <br/> <br/></a>             
                 <a href="#">    <span>     Home</span> <br/><br/></a>
                 <a href="#">   <span>     About</span> <br/><br/></a> 
                 <a href="#">   <span>     For Investors </span></a>
