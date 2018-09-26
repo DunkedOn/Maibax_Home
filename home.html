@@ -1,12 +1,12 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name=viewport content="width=1360">
 <link rel="stylesheet" type="text/css" href="css/home.css">
 <link rel="stylesheet" type="text/css" href="css/styles.css">
 <link rel="stylesheet" type="text/css" href="css/demo.css">
 <link rel="stylesheet" type="text/css" href="css/animate-custom.css">
-<script src="jquery-3.3.1.js"></script>
-<script src="textFit.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
 </head>
 <body>
 <header id="page" class="body-page">
@@ -59,7 +59,9 @@
                               
                                 <div id="login" class="animate form" name="login">
                                         <div class="login-icon">  <div class="box-image">
-                                          <a href="#toregister" class="to_register"><div class="box-image_2"  onclick="location.href = '#toregister'"><span class="reg-lg-text">R<br/>e<br/>g<br/>i<br/>s<br/>t<br/>e<br/>r</span></a></div></div></div></a>
+                                          <a class="to_register "><div class="box-image_2 activate" ><span class="reg-lg-text activate">Login</span></a></div></div></div></a>
+                                           <div class="login-icon">  <div class="box-image">
+                                          <a href="#toregister" class="to_register"><div class="box-image_2 deactivate"  onclick="location.href = '#toregister'"><span class="reg-lg-text deactivate">Sign up</span></a></div></div></div></a>
 
                                                   <h1 class="login-title"><b class="login-title-style">Login to your Account</b> </h1>
                                         <div class="login-border"> <form>
@@ -91,7 +93,8 @@
                                       <div id="register" class="animate form" name="register">
                                     <h1 class="register-title"> Sign Up to Maibax</h1>
                                     <form  action="mysuperscript.php" autocomplete="on">
-                                            <a href="#tologin" class="to_register"> <div class="register-icon">  <div class="box-image" onclick="location.href = '#tologin'"><span class="reg-lg-text">L<br/>o<br/>g<br/>i<br/>n</span></a></div></div>
+                                            <a href="#tologin" class="to_register"> <div class="register-icon">  <div class="box-image deactivate" onclick="location.href = '#tologin'"><span class="reg-lg-text deactivate">Login</span></a></div></div>
+                                            <a href="#tologin" class="to_register"> <div class="register-icon">  <div class="box-image activate" onclick="location.href = '#tologin'"><span class="reg-lg-text activate">Sign up</span></a></div></div>
                                         <div class="register-border"> 
                                         <div class="form-first_name"><p class="reg-name-text"><span class="reg-name-span"> First Name</span><br>
                                             <input class="reg-input-name" type="text" size="12"></div></p>

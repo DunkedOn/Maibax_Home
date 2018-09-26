@@ -517,27 +517,31 @@ select {
 .check-material_register label:before{content:'';position:absolute;display:block;height:300%;width:300%;top:-100%;left:-100%;z-index:-1;border-radius:50%;transition:.3s}
 .check-material_register label:after{content:'';display:block;height:100%;width:100%;background:url(https://cbwconline.com/IMG/Codepen/Check.svg) center center no-repeat;background-size:contain;transform:scale(0);transition:.2s}
 .check-material_register label:active:before{background:#bfbfbf}
-.register-icon,.login-icon{ background: #FAFBFC; float: left; }
+.register-icon,.login-icon{ background: #FAFBFC; float: left; clear: both;}
+.activate {
+    color: #FF5E3A;
+    cursor: default;
+}
+.deactivate {
+    color: #515365;
+}
 .register-icon {
-  height: 628px;
+  height: 314px;
    width: 70px;
    position: relative;
    right: 30px;
    bottom: 42px;
-   
    border-bottom: 1px solid #D8DBE6;
    border-right: 1px solid #D8DBE6
 }
 .reg-lg-text {
- color: #515365;   
- font-size: 28px;
- line-height: 45px;
+ font-size: 14px;
 position: relative;
-left: 20px;
+left: 15px;
 top: 125px;
 }
 .login-icon {
-    height: 628px;
+    height: 314px;
     width: 70px;
     position: relative;
     right: 30px;
@@ -552,7 +556,7 @@ top: 125px;
     height: 573px;
     left: 15px;
     position: relative;
-    bottom: 617px;
+    bottom: 619px;
     color: #888DA8;
     float: right;
 }
@@ -598,13 +602,13 @@ top: 125px;
     height: 576px;
     position: relative;
     left: 15px;
-    bottom: 598px;
+    bottom:597px;
     color: #888DA8;
     float: right;
     
 }
 .login-icon_1{
-    height: 620px;
+    height: 318px;
      width: 70px;
      position: relative;
      right: 30px;
