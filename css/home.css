@@ -322,7 +322,7 @@ height: 37;
     margin-left: 200px;
     margin-top: 250px;
     background-color: white;
-    height: 480px;
+    height: 500px;
     min-width:370px;
     width: 100%;
     float: left;
@@ -482,7 +482,6 @@ height: 37;
     width: 295;
     height: 43px;
     position: relative;
-    right: 20px;
 }
 .reg-label {
     font-size:10px;
@@ -492,7 +491,7 @@ height: 37;
     bottom: 12px;    
 }
 .change_link {
-    margin-left: 45px;
+    margin-left: 65px;
     margin-top: 25px;
 }
 .span-adress_to_login {color: #497DDD;}
@@ -527,7 +526,7 @@ select {
     cursor: pointer;
 }
 .register-icon {
-  height: 278px;
+  height: 288px;
    width: 70px;
    position: relative;
    right: 30px;
@@ -543,7 +542,7 @@ left: 15px;
 top: 125px;
 }
 .login-icon {
-    height: 278px;
+    height: 288px;
     width: 70px;
     position: relative;
     right: 30px;
@@ -555,10 +554,10 @@ top: 125px;
     border: 1px solid #D8DBE6;
     border-left: none;
     width: 343px;
-    height: 506px;
+    height: 526px;
     left: 15px;
     position: relative;
-    bottom: 550px;
+    bottom: 570px;
     color: #888DA8;
     float: right;
 }
@@ -581,10 +580,10 @@ top: 125px;
   .login-border {
     border: 1px solid #D8DBE6;
     width: 343px;
-    height: 507px;
+    height: 527px;
     position: relative;
     left: 15px;
-    bottom:527px;
+    bottom:547px;
     color: #888DA8;
     float: right;
     
@@ -673,7 +672,7 @@ font-size: 12;
      float: left;
      position: absolute;
      right: 25px;
-     bottom: 300px;
+     bottom: 280px;
       width: 295px;
       height:43px;
       background-color: #FF5E3A;
@@ -686,13 +685,13 @@ font-size: 12;
  .OR-lines {
     position: absolute;
     right: 88px;
-    bottom: 280px;
+    bottom: 260px;
  }
  .button-login-facebook {
      float: left;
      position: absolute;
      right: 25px;
-     bottom: 180px;
+     bottom: 160px;
       width: 295px;
       height:43px;
       background-color: #2F5B9D;
@@ -705,7 +704,7 @@ font-size: 12;
  .button-login-twitter {
     position: absolute;
     right: 25px;
-    bottom: 120px;
+    bottom: 100px;
      float: left;
       width: 295px;
       height:43px;
