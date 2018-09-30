@@ -522,6 +522,7 @@ select {
 }
 .deactivate {
     color: #515365;
+    cursor: pointer;
 }
 .register-icon {
   height: 278px;
