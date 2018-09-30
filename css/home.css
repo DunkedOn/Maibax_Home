@@ -361,7 +361,7 @@ height: 37;
     margin: 5px    
  }
  .reg-input-name {
-     max-width: 100px;
+     max-width: 125px;
      min-width: 50px;
     border: 1px solid white;
     color: #888DA8;
@@ -390,7 +390,7 @@ height: 37;
     top: 5px    
  }
 .input-email_password {
-    max-width: 250px;
+    max-width: 280px;
     max-height: 200px;
     border: 1px solid white;
     color: #888DA8;
