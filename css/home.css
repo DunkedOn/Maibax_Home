@@ -517,6 +517,7 @@ select {
 .check-material_register label:active:before{background:#bfbfbf}
 .register-icon,.login-icon{ background: #FAFBFC; float: left; clear: both;}
 .activate {
+    color: #FF5E3A;
     cursor: default;
 }
 .deactivate {
@@ -532,6 +533,7 @@ select {
    border-bottom: 1px solid #D8DBE6;
    border-right: 1px solid #D8DBE6
 }
+
 .reg-lg-text {
  font-size: 14px;
 position: relative;
@@ -580,7 +582,7 @@ top: 125px;
     height: 507px;
     position: relative;
     left: 15px;
-    bottom:526px;
+    bottom:527px;
     color: #888DA8;
     float: right;
     
