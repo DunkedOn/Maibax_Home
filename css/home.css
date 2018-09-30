@@ -517,7 +517,6 @@ select {
 .check-material_register label:active:before{background:#bfbfbf}
 .register-icon,.login-icon{ background: #FAFBFC; float: left; clear: both;}
 .activate {
-    color: #FF5E3A;
     cursor: default;
 }
 .deactivate {
