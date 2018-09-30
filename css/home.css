@@ -463,6 +463,12 @@ height: 37;
      margin-left: 22px;
      margin-top: 20px; 
 }
+.reg-label a {
+    color: #497DDD;
+}
+.link-to-terms {
+    color: #497DDD;
+}
 .adress_to_register_2 {color: #FF5E3A;}
 .register-title {
     position: relative;
